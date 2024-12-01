@@ -19,6 +19,9 @@ import java.util.List;
 @RequestMapping("/api/v1/cuenta")
 public class CuentaController {
 
+    //localhost:8080/api/v1/cuenta/transaccion//
+
+
     private final ICuentaService cuentaService;
 
     @PostMapping("/transaccion")
